@@ -1,0 +1,20 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# Data files (large)
+data/
+
+# MLflow local tracking
+mlruns/
+
+# Saved models
+models/
+
+# Virtual environment
+venv/
