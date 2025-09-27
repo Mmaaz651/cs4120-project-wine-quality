@@ -1,1 +1,36 @@
+# IDE / Editor settings
 .idea/
+.vscode/
+*.iml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MLflow experiment tracking
+#mlruns/  will use later
+
+# Models (artifacts, weights)
+#models/   will use later
+
+# Data (raw files should not be committed, keep only README.md)
+#data/*.csv        will use later
+#data/*.txt        will use later
+#!data/README.md   will use later
+
+# Logs / outputs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
