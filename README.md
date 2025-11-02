@@ -27,16 +27,18 @@ project/
 │   ├── features.py          # Scales numerical features
 │   ├── evaluate.py          # Generates confusion matrix & residual plots
 │   ├── utils.py             # Summarizes metrics in tables
-│   └── train_baselines.py  # Runs baseline models and logs results
+│   ├── train_baselines.py  # Runs baseline models and logs results
+│   └── train_nn.py
 ├── models/                  # (Optional) model files (if saved manually)
 ├── mlruns/                  # MLflow experiment tracking (auto-created)
 ├── README.md                # Project documentation (this file)
-└── requirements.txt         # Python dependencies
+├── requirements.txt         # Python dependencies
+└── .gitignore
 ```
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 The **White Wine Quality** dataset is automatically loaded from the UCI Machine Learning Repository.
 
@@ -63,7 +65,7 @@ pd.read_csv("data/winequality-white.csv", sep=";")
 ```
 ---
 
-## ⚙Setup Instructions
+## Setup Instructions
 
 ### Step 1: Create a virtual environment
 
@@ -113,7 +115,7 @@ This will:
   - Metric tables printed in the console
 - Log all experiments using MLflow under `mlruns/`
 
-### 🧭 View MLflow Dashboard
+### View MLflow Dashboard
 
 Launch the experiment tracking UI:
 
@@ -123,13 +125,13 @@ mlflow ui
 
 Then open your browser and go to:
 
-👉 http://127.0.0.1:5000
+ http://127.0.0.1:5000
 
 Here you can visually compare all model runs, metrics, and artifacts.
 
 ---
 
-## 🧠 Outputs Summary
+## Outputs Summary
 
 | Output Type | Description |
 |-------------|-------------|
