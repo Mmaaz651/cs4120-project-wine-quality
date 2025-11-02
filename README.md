@@ -117,7 +117,19 @@ If no errors appear, type `exit()`.
 
 ## How to Run the Project
 
-### Option 1 – Run via Terminal
+### Option 1 – Run Directly in PyCharm
+
+If you are using PyCharm:
+
+1. Open the project folder in PyCharm.
+2. Go to File → Settings → Project → Python Interpreter and select your `venv` environment.
+3. In the Project pane, open the file `src/train_baselines.py`.
+4. Right-click anywhere inside the file and choose "Run 'train_baselines'" (green run button ▶️ in the top-right corner).
+5. PyCharm will execute the script and display logs and metric tables in the run console.
+
+This method automatically uses your environment and project paths — no command line needed.
+
+### Option 2 – Run via Terminal
 
 Execute the baseline training script:
 
@@ -134,18 +146,6 @@ This will:
   * Residuals vs Predicted plots (`*_residuals.png`)
 * Print metric tables in the console
 * Log all experiments in the `mlruns/` folder using MLflow
-
-### Option 2 – Run Directly in PyCharm
-
-If you are using PyCharm:
-
-1. Open the project folder in PyCharm.
-2. Go to File → Settings → Project → Python Interpreter and select your `venv` environment.
-3. In the Project pane, open the file `src/train_baselines.py`.
-4. Right-click anywhere inside the file and choose "Run 'train_baselines'" (green run button ▶️ in the top-right corner).
-5. PyCharm will execute the script and display logs and metric tables in the run console.
-
-This method automatically uses your environment and project paths — no command line needed.
 
 ### View MLflow Dashboard
 
