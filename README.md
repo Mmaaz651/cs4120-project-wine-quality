@@ -113,7 +113,7 @@ This will:
   - Metric tables printed in the console
 - Log all experiments using MLflow under `mlruns/`
 
-### View MLflow Dashboard
+### 🧭 View MLflow Dashboard
 
 Launch the experiment tracking UI:
 
