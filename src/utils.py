@@ -1,7 +1,14 @@
-import joblib
+# src/utils.py
 
-def save_model(model, path):
-    joblib.dump(model, path)
+import pandas as pd
 
-def load_model(path):
-    return joblib.load(path)
+def summarize_metrics(task_name, results_dict):
+    """
+    Convert a metrics dictionary into a formatted DataFrame
+    and print it for summary.
+    """
+    df = pd.DataFrame(results_dict).T
+    print(f"\n===== {task_name} Metrics =====")
+    print(df.round(4))
+    print()
+    return df
