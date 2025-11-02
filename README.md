@@ -67,53 +67,85 @@ pd.read_csv("data/winequality-white.csv", sep=";")
 
 ## Setup Instructions
 
-### Step 1: Create a virtual environment
+### Step 1 – Create a Virtual Environment
 
 It's recommended to isolate dependencies.
 
-```bash
+```
 python -m venv venv
-source venv/bin/activate      # Mac/Linux
-venv\Scripts\activate         # Windows
 ```
 
-### Step 2: Install dependencies
+Activate the environment:
 
-Install everything listed in `requirements.txt`:
+* **Mac/Linux**
 
-```bash
+```
+source venv/bin/activate
+```
+
+* **Windows**
+
+```
+venv\Scripts\activate
+```
+
+### Step 2 – Install Dependencies
+
+Install all required libraries:
+
+```
 pip install -r requirements.txt
 ```
 
-### Step 3: Verify installation
+### Step 3 – Verify Installation
 
-Run Python and ensure you can import all required libraries:
+Check that core packages import correctly:
 
-```python
+```
+python
+```
+
+then inside the shell:
+
+```
 import pandas, numpy, sklearn, mlflow
 ```
+
+If no errors appear, type `exit()`.
 
 ---
 
 ## How to Run the Project
 
-### Run Baseline Models
+### Option 1 – Run via Terminal
 
-To train models and log metrics:
+Execute the baseline training script:
 
-```bash
+```
 python -m src.train_baselines
 ```
 
 This will:
 
-- Train Logistic Regression and Decision Tree (for classification)
-- Train Linear Regression and Decision Tree Regressor (for regression)
-- Generate:
-  - Confusion matrices (`*_confusion.png`)
-  - Residuals vs Predicted plots (`*_residuals.png`)
-  - Metric tables printed in the console
-- Log all experiments using MLflow under `mlruns/`
+* Train Logistic Regression and Decision Tree (classification)
+* Train Linear Regression and Decision Tree Regressor (regression)
+* Generate:
+  * Confusion matrices (`*_confusion.png`)
+  * Residuals vs Predicted plots (`*_residuals.png`)
+* Print metric tables in the console
+* Log all experiments in the `mlruns/` folder using MLflow
+
+### Option 2 – Run Directly in PyCharm
+
+If you are using PyCharm:
+
+1. Open the project folder in PyCharm.
+2. Go to File → Settings → Project → Python Interpreter and select your `venv` environment.
+3. In the Project pane, open the file `src/train_baselines.py`.
+4. Right-click anywhere inside the file and choose "Run 'train_baselines'" (green run button ▶️ in the top-right corner).
+5. PyCharm will execute the script and display logs and metric tables in the run console.
+
+This method automatically uses your environment and project paths — no command line needed.
 
 ### View MLflow Dashboard
 
