@@ -1,8 +1,7 @@
-# src/train_baselines.py
-import os
 import mlflow
 import mlflow.sklearn
 import numpy as np
+import os # To save plots
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.metrics import (
