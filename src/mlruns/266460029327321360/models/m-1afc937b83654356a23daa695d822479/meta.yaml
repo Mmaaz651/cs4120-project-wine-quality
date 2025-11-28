@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/src/mlruns/266460029327321360/models/m-1afc937b83654356a23daa695d822479/artifacts
+creation_timestamp: 1763818812658
+experiment_id: '266460029327321360'
+last_updated_timestamp: 1763818828787
+model_id: m-1afc937b83654356a23daa695d822479
+model_type: null
+name: Regression_NN
+source_run_id: c62d31ab96894a6d9018233d464a8f60
+status: 2
+status_message: null

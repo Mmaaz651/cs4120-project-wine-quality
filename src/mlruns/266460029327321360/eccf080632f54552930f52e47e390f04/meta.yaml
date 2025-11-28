@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/src/mlruns/266460029327321360/eccf080632f54552930f52e47e390f04/artifacts
+end_time: 1763818775321
+entry_point_name: ''
+experiment_id: '266460029327321360'
+lifecycle_stage: active
+run_id: eccf080632f54552930f52e47e390f04
+run_name: Classification_NN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763818714720
+status: 3
+tags: []
+user_id: abdullah

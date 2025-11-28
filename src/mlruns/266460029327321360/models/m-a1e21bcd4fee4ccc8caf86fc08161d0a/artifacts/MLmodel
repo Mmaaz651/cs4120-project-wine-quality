@@ -1,0 +1,20 @@
+artifact_path: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/src/mlruns/266460029327321360/models/m-a1e21bcd4fee4ccc8caf86fc08161d0a/artifacts
+flavors:
+  keras:
+    data: data
+    keras_backend: tensorflow
+    keras_version: 3.12.0
+    save_exported_model: false
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.keras
+    python_version: 3.11.4
+mlflow_version: 3.6.0
+model_id: m-a1e21bcd4fee4ccc8caf86fc08161d0a
+model_size_bytes: 62153
+model_uuid: m-a1e21bcd4fee4ccc8caf86fc08161d0a
+prompts: null
+run_id: 7d269a64718949ecb5b5c98c1163baa9
+utc_time_created: '2025-11-22 13:34:52.280389'

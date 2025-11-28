@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/src/mlruns/266460029327321360/models/m-d7f9bc441a5f4f17ad1377ade390fb6e/artifacts
+creation_timestamp: 1763818749199
+experiment_id: '266460029327321360'
+last_updated_timestamp: 1763818773941
+model_id: m-d7f9bc441a5f4f17ad1377ade390fb6e
+model_type: null
+name: Classification_NN
+source_run_id: eccf080632f54552930f52e47e390f04
+status: 2
+status_message: null

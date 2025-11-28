@@ -29,7 +29,9 @@ plt.show()
 # --- Plot 2: Correlation Heatmap ---
 plt.figure(figsize=(10, 8))
 corr = df.corr(numeric_only=True)
-sns.heatmap(corr, cmap="coolwarm", center=0)
+#sns.heatmap(corr, cmap="coolwarm", center=0)
+sns.heatmap(corr, cmap="coolwarm", center=0, annot=True, fmt=".2f")
+
 plt.title("Feature Correlation Heatmap")
 plt.tight_layout()
 plt.savefig("correlation_heatmap.png")  # Saved in notebooks/

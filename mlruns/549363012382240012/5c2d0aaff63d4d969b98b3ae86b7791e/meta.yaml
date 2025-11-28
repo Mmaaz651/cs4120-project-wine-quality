@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/mlruns/549363012382240012/5c2d0aaff63d4d969b98b3ae86b7791e/artifacts
+end_time: 1763819220981
+entry_point_name: ''
+experiment_id: '549363012382240012'
+lifecycle_stage: active
+run_id: 5c2d0aaff63d4d969b98b3ae86b7791e
+run_name: Regression_NN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763819190948
+status: 3
+tags: []
+user_id: abdullah

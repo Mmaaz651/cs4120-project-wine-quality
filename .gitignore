@@ -5,13 +5,6 @@ __pycache__/
 # Data files
 data/*.csv
 
-# MLflow tracking
-mlruns/
-
-# Model artifacts
-models/
-*.pkl
-
 # Jupyter checkpoints
 .ipynb_checkpoints/
 

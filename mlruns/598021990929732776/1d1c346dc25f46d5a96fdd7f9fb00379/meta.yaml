@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/mlruns/598021990929732776/1d1c346dc25f46d5a96fdd7f9fb00379/artifacts
+end_time: 1762125612965
+entry_point_name: ''
+experiment_id: '598021990929732776'
+lifecycle_stage: active
+run_id: 1d1c346dc25f46d5a96fdd7f9fb00379
+run_name: LogisticRegression
+run_uuid: 1d1c346dc25f46d5a96fdd7f9fb00379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762125600172
+status: 3
+tags: []
+user_id: abdullah
