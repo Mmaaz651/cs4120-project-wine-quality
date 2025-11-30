@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/mlruns/424350449593166838/8f71ffe0690142caa3a685402f438f5c/artifacts
+end_time: 1764461491286
+entry_point_name: ''
+experiment_id: '424350449593166838'
+lifecycle_stage: active
+run_id: 8f71ffe0690142caa3a685402f438f5c
+run_name: DecisionTreeClassifier
+run_uuid: 8f71ffe0690142caa3a685402f438f5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764461485355
+status: 3
+tags: []
+user_id: abdullah

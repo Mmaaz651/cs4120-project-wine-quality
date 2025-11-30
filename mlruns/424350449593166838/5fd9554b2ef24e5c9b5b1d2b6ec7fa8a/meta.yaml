@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/abdullah/PycharmProjects/cs4120-project-wine-quality/mlruns/424350449593166838/5fd9554b2ef24e5c9b5b1d2b6ec7fa8a/artifacts
+end_time: 1764461496882
+entry_point_name: ''
+experiment_id: '424350449593166838'
+lifecycle_stage: active
+run_id: 5fd9554b2ef24e5c9b5b1d2b6ec7fa8a
+run_name: LinearRegression
+run_uuid: 5fd9554b2ef24e5c9b5b1d2b6ec7fa8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764461491311
+status: 3
+tags: []
+user_id: abdullah
