@@ -28,7 +28,7 @@ def run_baselines():
         if "alcohol" in df.columns and "density" in df.columns:
             df["alcohol_density_ratio"] = df["alcohol"] / df["density"]
 
-    # ---- Standardization (for linear models) ---- #
+    # ---- Standardization (for linear models) ----  #
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_val_scaled = scaler.transform(X_val)

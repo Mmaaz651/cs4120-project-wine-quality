@@ -1,6 +1,6 @@
 """
 CS-4120 Final Project – Wine Quality (White Wine)
-Neural Network Training & Evaluation (Keras + MLflow)
+Neural Network Training & Evaluation  (Keras + MLflow)
 All plots are saved in notebooks/.
 """
 
